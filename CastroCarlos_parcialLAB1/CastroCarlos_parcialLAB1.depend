@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1557240535 source:d:\carlos castro\parcial 1_lab i\castrocarlos_parciallab1\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"empleados.h"
+
+1557237778 d:\carlos castro\parcial 1_lab i\castrocarlos_parciallab1\empleados.h
+
+1557238007 source:d:\carlos castro\parcial 1_lab i\castrocarlos_parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleados.h"
+
+1557264209 source:c:\users\carlos\desktop\parcial 1_lab i\castrocarlos_parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleados.h"
+
+1557600956 c:\users\carlos\desktop\parcial 1_lab i\castrocarlos_parciallab1\empleados.h
+
+1557600736 source:c:\users\carlos\desktop\parcial 1_lab i\castrocarlos_parciallab1\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"empleados.h"
+
+1557603890 source:c:\users\carlos\desktop\practica\castrocarlos_parciallab1\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"empleados.h"
+
+1557608112 c:\users\carlos\desktop\practica\castrocarlos_parciallab1\empleados.h
+
+1557605552 source:c:\users\carlos\desktop\practica\castrocarlos_parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleados.h"
+
