@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "empleados.h"
+#include "abmPelicula.h"
+#include "informarPeliculas.h"
 #define T 1000
 
 int main()
@@ -21,7 +22,7 @@ int main()
         switch(opcion)
         {
             case'1':
-                flag=peliculas_alta(arrayPeliculas, arrayFecha, T, flag);
+                flag=peliculas_alta(arrayPeliculas, arrayFecha, arrayActores, T, flag);
 
             break;
             case'2':

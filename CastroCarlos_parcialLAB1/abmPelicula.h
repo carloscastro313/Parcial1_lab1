@@ -59,7 +59,7 @@ char peliculas_opciones(char[]);
  * \return int flag+1
  *
  */
-int peliculas_alta(ePelicula[], eFecha[], int, int);
+int peliculas_alta(ePelicula[], eFecha[], eActores[],int, int);
 /** \brief Buscar vector libre
  *
  * \param ePelicula[] list
@@ -152,66 +152,4 @@ void peliculas_correctorPalabras(char[]);
  *
  */
 int peliculas_ingresoNumero(char[]);
-
-/** \brief mostrar datos de peliculas
- *
- * \param ePelicula[] list
- * \param eFecha[] listFecha
- * \param eActores[] listActores
- * \param eGenero[] listGeneros
- * \param int len
- * \param int flag
- * \return void
- *
- */
-void peliculas_mostrar(ePelicula[], eFecha[], eActores[], eGenero[], int, int);
-/** \brief Ordenar por fecha
- *
- * \param ePelicula[] list
- * \param eFecha[] listFecha
- * \param int len
- * \return void
- *
- */
-void peliculas_ordenarVector(ePelicula[], eFecha[], int);
-/** \brief Intercambio
- *
- * \param ePelicula[] list
- * \param eFecha[] listFecha
- * \param int i
- * \param int j
- * \return void
- *
- */
-void peliculas_ordenamiento(ePelicula[], eFecha[], int, int);
-
-/** \brief Verifica datos si es FALSE va de desplegar dato,TRUE va a continuar
- *
- * \param ePelicula[] list
- * \param eFecha[] listFecha
- * \param eActores[] listActores
- * \param eGenero[] listGeneros
- * \param int len
- * \return void
- *
- */
-void peliculas_cargarDatos(ePelicula[], eFecha[], eActores[], eGenero[], int);
-/** \brief Desplegar datos en pantalla
- *
- * \param ePelicula[] list
- * \param eFecha[] listFecha
- * \param eActores[] listActores
- * \param eGenero[] listGeneros
- * \return void
- *
- */
-void peliculas_desplegarDatos(ePelicula, eFecha, eActores[], eGenero[]);
-
-/** \brief Desplegar actores
- *
- * \param eActores[] listActores
- * \return void
- *
- */
-void peliculas_cargarDatosActores(eActores[]);
 
