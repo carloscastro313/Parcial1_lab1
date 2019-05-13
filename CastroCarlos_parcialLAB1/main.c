@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "abmPelicula.h"
 #include "informarPeliculas.h"
+#include "funcionesPeliculas.h"
 #define T 1000
 
 int main()

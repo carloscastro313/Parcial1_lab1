@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="abmPelicula.h" />
+		<Unit filename="funcionesPeliculas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcionesPeliculas.h" />
 		<Unit filename="informarPeliculas.c">
 			<Option compilerVar="CC" />
 		</Unit>

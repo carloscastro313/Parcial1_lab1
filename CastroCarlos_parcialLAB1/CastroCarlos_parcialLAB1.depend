@@ -41,23 +41,25 @@
 	<stdlib.h>
 	"empleados.h"
 
-1557704316 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\main.c
+1557715281 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"abmPelicula.h"
 	"informarPeliculas.h"
+	"funcionesPeliculas.h"
 
-1557705262 c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\abmpelicula.h
+1557715256 c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\abmpelicula.h
 
-1557705262 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\abmpelicula.c
+1557715325 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\abmpelicula.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 	"abmPelicula.h"
 	"informarPeliculas.h"
+	"funcionesPeliculas.h"
 
-1557709690 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\informarpeliculas.c
+1557712912 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\informarpeliculas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -66,4 +68,14 @@
 	"informarPeliculas.h"
 
 1557710406 c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\informarpeliculas.h
+
+1557715256 source:c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\funcionespeliculas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"abmPelicula.h"
+	"funcionesPeliculas.h"
+
+1557715256 c:\users\carlos\desktop\parcial1_lab1\castrocarlos_parciallab1\funcionespeliculas.h
 

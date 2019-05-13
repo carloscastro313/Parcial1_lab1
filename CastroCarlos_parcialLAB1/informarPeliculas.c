@@ -291,17 +291,23 @@ void peliculas_maximoActor(ePelicula list[], eActores listActores[], int len)
 void peliculas_maximoAnio(ePelicula list[], eFecha listFecha[], int len)
 {
     int contador, maximo, i, j, indice, flag;
-    int anioAux[10]={};
+    int anioAux[10];
     maximo=0;
     indice=0;
     flag=0;
+
+    for(i=0;i<10;i++)
+    {
+        anioAux[i]=0;
+
+    }
 
     for(j=1900;j<2100;j++)
     {
         contador=0;
         for(i=0;i<len;i++)
         {
-            if(listFecha[i].anio==j)
+            if(listFecha[i].anio==j&&list[i].isEmpty==FALSE)
             {
                 contador++;
 
